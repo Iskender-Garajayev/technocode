@@ -1,0 +1,19 @@
+.header-container {
+  width: 100%;
+  height: 60%;
+  position: relative;
+  border-bottom: 1px solid black;
+  animation: header infinite 2.5s;
+}
+
+@keyframes header {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 10px;
+  }
+  100% {
+    top: 0px;
+  }
+}
