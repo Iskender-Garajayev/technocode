@@ -6,6 +6,7 @@ const Header = () => {
     <div className='header-container'>
       <div className='header-inner'>
         <div className='logo'>
+          <div className='circule'></div>
           <h3>
             techno <span className='color'>code</span>
           </h3>
