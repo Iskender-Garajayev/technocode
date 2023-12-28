@@ -13,11 +13,19 @@
   margin: 0 auto;
 }
 
-.logo h3,
-.color {
+.logo h3 {
   /* text-transform: capitalize; */
+  color: rgb(68, 67, 67);
   font-size: 20px;
   font-family: 'Courgette', cursive;
+}
+
+.logo h3 .color {
+  font-size: 20px;
+  font-family: 'Courgette', cursive;
+  background: -webkit-linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .navbar ul {
