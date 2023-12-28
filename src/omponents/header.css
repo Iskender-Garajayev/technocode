@@ -3,3 +3,12 @@
   height: 80px;
   border-bottom: 1px solid black;
 }
+
+.header-inner {
+  width: 90%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
