@@ -91,3 +91,30 @@
   font-size: 16px;
   font-weight: 600;
 }
+
+.phone-num {
+  position: relative;
+}
+.blob {
+  position: absolute;
+  height: 180px;
+  width: 180px;
+  top: -60px;
+  right: -10px;
+  transform: rotate(20deg);
+}
+
+.num-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(10, 9, 8);
+}
+
+.number {
+  position: relative;
+  font-weight: 600;
+}
+
+.phone-num p {
+  position: relative;
+}
