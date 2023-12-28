@@ -5,7 +5,11 @@ const Header = () => {
   return (
     <div className='header-container'>
       <div className='header-inner'>
-        <div className='logo'>techno code</div>
+        <div className='logo'>
+          <h3>
+            techno <span className='color'>code</span>
+          </h3>
+        </div>
         <div className='navbar'>
           <ul>
             <li>Ana Sayfa</li>
