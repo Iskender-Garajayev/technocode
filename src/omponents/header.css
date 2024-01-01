@@ -43,8 +43,12 @@
   }
   25% {
     top: 0px;
-    left: 125px;
+    left: 120px;
     background: blue;
+  }
+  30% {
+    top: 15 px;
+    left: 125px;
   }
   50% {
     top: 30px;
@@ -122,4 +126,31 @@
 
 .phone-num p {
   position: relative;
+}
+
+.home-container {
+  width: 100%;
+}
+
+.home-inner {
+  width: 90%;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 94px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+}
+
+.title span {
+  font-size: 54px;
+  background: -webkit-linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: -20px;
 }
