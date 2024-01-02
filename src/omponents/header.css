@@ -133,7 +133,7 @@
 }
 
 .home-inner {
-  width: 90%;
+  width: 78%;
   margin: 60px auto;
   display: flex;
   justify-content: space-between;
@@ -153,4 +153,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: -20px;
+}
+
+.home-img {
+  width: 100%;
+}
+.home-img img {
+  width: 100%;
 }
